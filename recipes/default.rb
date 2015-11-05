@@ -18,9 +18,11 @@
 # limitations under the License.
 #
 
+
+
 windows_package node['taskfactory']['name'] do
-	checksum node['taskfactory']['sha256sum']
-	source "#{extract_path}/taskfactoryInstall.exe"
+	checksum node['taskfactory']['checksum']
+	source node['taskfactory']['url']
 	installer_type :custom
 	options "/quiet APPDIR=\"#{node['taskfactory']['properties']['APPDIR']}\" TARGETDIR=\"#{node['taskfactory']['properties']['TARGETDIR']}\" ADDLOCAL=\"#{node['taskfactory']['properties']['ADDLOCAL']}\" USERNAME=\"#{node['taskfactory']['properties']['USERNAME']}\" COMPANYNAME=\"#{node['taskfactory']['properties']['COMPANYNAME']}\""
 end
