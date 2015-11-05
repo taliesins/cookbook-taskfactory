@@ -17,7 +17,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-default['taskfactory']['name'] = 'TaskFactory'
+default['taskfactory']['name'] = 'Task Factory'
 default['taskfactory']['filename'] = 'taskfactory_trial'
 default['taskfactory']['filenameextension'] = 'exe'
 default['taskfactory']['url'] = 'http://www.pragmaticworks.com/downloads/TaskFactory/' + default['taskfactory']['filename'] + '.' + default['taskfactory']['filenameextension'] 
