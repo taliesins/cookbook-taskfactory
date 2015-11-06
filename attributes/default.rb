@@ -24,8 +24,8 @@ default['taskfactory']['url'] = 'http://www.pragmaticworks.com/downloads/TaskFac
 default['taskfactory']['checksum'] = 'd32649e1b39049565aa0b31329386f4be93599006365ffde990534c6e879b836'
 
 
-# Features: TASKFACTORY, TASKFACTORY_2008, TASKFACTORY_2012, TASKFACTORY_2014
-default['taskfactory']['properties']['ADDLOCAL'] = 'TASKFACTORY, TASKFACTORY_2012'
+# Features: TASKFACTORY_2008, TASKFACTORY_2012, TASKFACTORY_2014
+default['taskfactory']['properties']['ADDLOCAL'] = 'TASKFACTORY_2012'
 default['taskfactory']['properties']['APPDIR'] = 'C:\\Program Files (x86)\\Pragmatic Works\\Task Factory\\'
 default['taskfactory']['properties']['TARGETDIR'] = 'C:\\Program Files (x86)\\Pragmatic Works\\Task Factory\\'
 default['taskfactory']['properties']['USERNAME'] = ''
