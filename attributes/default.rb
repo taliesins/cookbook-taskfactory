@@ -21,7 +21,7 @@ default['taskfactory']['name'] = 'Task Factory'
 default['taskfactory']['filename'] = 'taskfactory_trial'
 default['taskfactory']['filenameextension'] = 'exe'
 default['taskfactory']['url'] = 'http://www.pragmaticworks.com/downloads/TaskFactory/' + default['taskfactory']['filename'] + '.' + default['taskfactory']['filenameextension'] 
-default['taskfactory']['checksum'] = 'd32649e1b39049565aa0b31329386f4be93599006365ffde990534c6e879b836'
+default['taskfactory']['checksum'] = '128e3a55f19972f804207781dfc8ab87f44e181805490fca94c4bfb93cca37f2'
 
 
 # Features: TASKFACTORY_2008, TASKFACTORY_2012, TASKFACTORY_2014
